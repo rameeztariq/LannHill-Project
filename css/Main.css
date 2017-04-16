@@ -1,0 +1,481 @@
+﻿html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', 'Lucida Sans', Verdana !important;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Segoe UI', 'Lucida Sans', Verdana !important;
+    font-size: 12px;
+    line-height: 22px;
+    color: #666;
+    position: relative;
+    overflow-x: hidden;
+}
+
+a.active, a:hover {
+    color: #a09167 !important;
+}
+
+.navbar {
+    background-color: #fff !important;
+    border: none !important;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+    .navbar-brand img {
+        height: 150px;
+    }
+
+.navbar-toggle {
+    z-index: 1;
+}
+
+.form-inline {
+    text-align: left;
+    border-radius: 2px;
+}
+
+.searchlocation {
+    font-size: 14px;
+    color: #a09167;
+    font-weight: bold;
+}
+
+.form-inline input {
+    width: 400px !important;
+    border: 0;
+}
+
+.form-inline select {
+    border: 0 !important;
+    width: 200px !important;
+}
+
+.form-inline .btnsearch {
+    background-color: #a09167;
+    border: 0;
+    color: #fff;
+    margin-left: 10px;
+    width: 150px;
+}
+
+.homepagebanner {
+    background-image: url("../images/homepage-banner.jpg");
+    background-size: cover;
+    height: 520px;
+    text-align: center;
+    color: #fff;
+}
+
+.homepagebanner2 {
+    background-image: url("../images/homepage-banner.jpg");
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+}
+
+.jumbotron .container h1 {
+    text-shadow: 1px 1px 6px #000;
+    margin-top: 175px;
+    text-transform: uppercase;
+}
+
+.homepagebanner2 .container h1 {
+    margin-top: 10px;
+}
+
+.nav-tabs {
+    padding-left: 50%;
+    border: none;
+}
+
+    .nav-tabs > li {
+        background: rgb(11, 8, 9); /* Fall-back for browsers that don't
+                                    support rgba */
+        background: rgba(11, 8, 9, .5);
+    }
+
+        .nav-tabs > li > a {
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+            .nav-tabs > li > a:hover {
+                background-color: transparent !important;
+                color: #a09167;
+            }
+
+        .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+            background-color: transparent !important;
+            color: #a09167;
+        }
+
+.tab-content {
+    background: rgb(11, 8, 9); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(11, 8, 9, .5);
+    padding: 15px;
+    height: 65px;
+}
+
+.whychooselanhill {
+    text-align: center;
+    background-color: #ededed;
+    width: 100%;
+    margin-top: -30px;
+}
+
+    .whychooselanhill p {
+        padding: 20px;
+    }
+
+.btn.btn-default.readmore {
+    background-color: transparent;
+    border: 1px solid #a09167;
+}
+
+.offers {
+    margin-top: 50px;
+}
+
+.container.widget {
+    padding-top: 30px;
+}
+
+
+.carousel-header {
+    float: left;
+    padding: 5px;
+    background-color: #a09167;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.widgetitem {
+    background-size: cover;
+    background-position: center top;
+    height: 250px;
+}
+
+.item1 {
+    background-image: url('https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/664/FIZAyAO8b4Ul2dIk.jpg');
+}
+
+.item2 {
+    background-image: url('https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/664/FIZAyAO8b4Ul2dIk.jpg');
+}
+
+.item3 {
+    background-image: url('https://s3-ap-southeast-1.amazonaws.com/mycrm-pro-accounts-v2/property/full/664/gniznUmXcjPKeaaU.jpg');
+}
+
+.widgetitem .innertext {
+    float: left;
+    color: #fff;
+    text-shadow: 1px 1px 6px #000;
+    font-weight: bold;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+    .widgetitem .innertext h2 {
+        padding-left: 12px;
+    }
+
+    .widgetitem .innertext p {
+        padding: 0px !important;
+    }
+
+.carousel-control.next {
+    font-weight: bold;
+    top: 220px;
+    left: 20px;
+    text-align: left;
+}
+
+.carousel-indicators.widget-indicators {
+    bottom: 0px;
+}
+
+.widget-indicators .active {
+    background-color: #a09167;
+}
+
+.container.meetourteam {
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+/*Profiles*/
+.profile-inner .active.left {
+    left: -33%;
+}
+
+.profile-inner .next {
+    left: 33%;
+}
+
+.profile-inner .prev {
+    left: -33%;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    color: #a09167 !important;
+    font-weight: bold;
+}
+
+    carousel-control.left:hover, .carousel-control.right:hover {
+        color: #222 !important;
+    }
+
+.item:not(.prev) {
+    visibility: visible;
+}
+
+.item.right:not(.prev) {
+    visibility: hidden;
+}
+
+.rightest {
+    visibility: visible;
+}
+
+.text {
+    text-align: left;
+}
+
+    .text p {
+        color: #959595;
+        margin-top: -5px;
+    }
+
+.ourservicesWidget {
+    border: 1px solid #959595;
+    text-transform: uppercase;
+    height: 220px;
+}
+
+.findmore {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.sellyourProperty {
+    background-image: url('../images/controls2.png');
+    background-position: -250px -170px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 90px;
+    width: 150px;
+}
+
+.rentyourProperty {
+    background-image: url('../images/controls2.png');
+    background-position: -560px -160px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 90px;
+    width: 150px;
+}
+
+.getaMortgage {
+    background-image: url('../images/controls2.png');
+    background-position: -870px -170px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 90px;
+    width: 150px;
+}
+
+.usefulguides {
+    background-color: #ededed;
+    margin-top: -30px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+    .usefulguides h1 {
+        text-align: center;
+        padding: 10px;
+    }
+
+.guidesWidget {
+    background-color: #fff;
+}
+
+    .guidesWidget h3 {
+        font-size: 11px;
+        color: #a09167;
+        font-weight: bold;
+    }
+
+    .guidesWidget p {
+        font-size: 11px;
+        text-transform: lowercase;
+    }
+
+    .guidesWidget a {
+        color: #a09167;
+        text-decoration: none;
+    }
+
+.buyingInDubai {
+    height: 250px;
+    width: 180px;
+    background-image: url('../images/building-sprites.png');
+    background-position: -160px -30px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.rentingInDubai {
+    height: 250px;
+    width: 180px;
+    background-image: url('../images/building-sprites.png');
+    background-position: -700px -30px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.mortgageInDubai {
+    height: 250px;
+    width: 180px;
+    background-image: url('../images/building-sprites.png');
+    background-position: -1220px -30px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+
+.searchfilters {
+    background-color: #e4dcc6;
+    height: auto;
+    padding: 15px;
+}
+
+    .searchfilters .form-inline {
+        text-align: unset;
+    }
+    .searchfilters input {
+        width: 160px !important;
+    }
+
+    .searchfilters select {
+        width: 150px !important;
+        margin:5px 0px;
+    }
+
+    .searchfilters .btnsearch {
+        margin-left: 5px;
+        width: 100px;
+    }
+
+.propertyPage {
+    background-color: #ccc;
+}
+.propertyWidget {
+    border: 10px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+  
+.markerPopUp .img-responsive {
+    width: 180px !important;
+    height: auto;
+}
+.footer {
+    background-color: #2f2f2f;
+    font-size: 11px !important;
+}
+
+    .footer a {
+        color: #565656;
+    }
+
+        .footer a:hover {
+            color: #a09167 !important;
+            background-color: transparent !important;
+        }
+
+    .footer .text-muted {
+        color: #a09167 !important;
+    }
+
+    .footer h3 {
+        color: #a09167 !important;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+.emailform {
+    background: transparent;
+    color: #565656 !important;
+    border-radius: 0;
+    border: 0;
+    border: 1px solid #a09167 !important;
+    box-shadow: none !important;
+    padding-left: 5px;
+}
+
+.footer .subscribe, .footer .subscribe:hover {
+    background-color: #a09167 !important;
+    color: #fff;
+}
+
+@media (max-width: 990px) {
+    .navbar-brand img {
+        height: 100px;
+    }
+
+    .homepagebanner2 {
+        height: 820px;
+    }
+
+    .buyingInDubai, .rentingInDubai, .mortgageInDubai {
+        float: none;
+        height: 200px;
+    }
+
+    .topmenus {
+        display: none;
+    }
+
+    .searchfilters .text-right
+    {
+        text-align:unset;
+        padding:10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .homepagebanner {
+        height: 700px;
+    }
+
+    .form-inline input {
+        width: 200px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .tab-content {
+        height: auto;
+    }
+}
