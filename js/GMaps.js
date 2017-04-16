@@ -20,7 +20,7 @@ function LoadMap() {
 
     var infowindow = new google.maps.InfoWindow();
     var marker, i;    
-    var markericon = '../images/marker.png';
+    var markericon = 'https://github.com/rameeztariq/LannHill-Project/blob/master/images/marker.pnghttps://raw.githubusercontent.com/rameeztariq/LannHill-Project/master/images/marker.png';
     for (i = 0; i < PropertyList.length; i++) {          
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(PropertyList[i][1], PropertyList[i][2]),
